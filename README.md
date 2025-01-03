@@ -1,1 +1,1 @@
-# e-learning_cli
+# e-learning-cli
