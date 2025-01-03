@@ -1,0 +1,78 @@
+Berikut adalah key talking points dari program e-learning sederhana ini yang dapat Anda gunakan untuk presentasi kelas:
+
+1. Tujuan dan Fungsi Program
+Tujuan: Memberikan pengalaman e-learning yang sederhana, dengan fitur untuk mengelola jadwal, absensi, tugas, dan kelas pengganti.
+Fungsi Utama:
+Mahasiswa dapat melihat jadwal kuliah, mengisi absensi, melihat tugas, mengunggah tugas, dan memeriksa kelas pengganti.
+Admin (dosen) dapat mengelola kelas pengganti, menambah atau memperbarui tugas, serta memantau absensi dan pengumpulan tugas.
+
+2. Struktur Data dan Basis Data
+Program menggunakan file JSON sebagai database.
+Data yang disimpan meliputi:
+Users: Data pengguna (nim, password, role).
+Schedule: Jadwal kuliah berdasarkan NIM.
+Attendance: Data absensi harian mahasiswa.
+Tasks: Tugas-tugas yang diberikan oleh dosen.
+Submissions: Pengumpulan tugas oleh mahasiswa.
+Replacement Classes: Jadwal kelas pengganti yang dibuat oleh admin.
+
+3. Modul dan Library yang Digunakan
+JSON: Untuk membaca dan menyimpan data ke file database.json.
+Datetime: Untuk mencatat tanggal pengumpulan tugas dan absensi.
+
+4. Fitur Utama
+Untuk Mahasiswa
+Cek Jadwal Kuliah:
+Menampilkan jadwal kuliah mahasiswa berdasarkan NIM.
+Absensi:
+Mahasiswa dapat melakukan absensi harian. Absensi dicatat berdasarkan tanggal.
+Sistem memverifikasi apakah mahasiswa sudah absen pada hari yang sama.
+Lihat dan Unggah Tugas:
+Melihat daftar tugas yang diberikan.
+Mengunggah tugas dengan mencantumkan file dan ID tugas.
+Kelas Pengganti:
+Menampilkan jadwal kelas pengganti yang telah dibuat oleh admin.
+Untuk Admin (Dosen)
+Lihat Absensi Mahasiswa:
+Menampilkan daftar kehadiran mahasiswa berdasarkan tanggal.
+Kelola Tugas:
+Menambahkan tugas baru.
+Memperbarui tugas yang sudah ada.
+Kelola Kelas Pengganti:
+Menambahkan jadwal kelas pengganti dengan detail mata kuliah, tanggal, waktu, dan ruang.
+Lihat Pengumpulan Tugas:
+Menampilkan daftar tugas yang telah dikumpulkan oleh mahasiswa.
+
+5. Alur Login
+Validasi Pengguna:
+Menggunakan kombinasi NIM dan password.
+Role pengguna menentukan akses ke fitur:
+student: Mahasiswa.
+admin: Admin/dosen.
+Menu Interaktif:
+Tersedia menu khusus untuk setiap role.
+
+6. Contoh Data JSON
+Contoh Data User:
+json
+Copy code
+{
+  "nim": "12240026",
+  "password": "Mhs-1945",
+  "name": "Gary Hardyansyah",
+  "role": "student"
+}
+Contoh Data Kelas Pengganti:
+json
+Copy code
+{
+  "course": "Pemrograman Dasar",
+  "date": "2024-11-25",
+  "time": "10:00 - 12:00",
+  "room": "Ruang 101"
+}
+
+7. Manfaat Program
+Efisiensi: Mempermudah pengelolaan tugas, absensi, dan kelas pengganti.
+Integrasi: Satu sistem mencakup banyak fitur yang relevan untuk dosen dan mahasiswa.
+Kemudahan Akses: Menggunakan file JSON sebagai basis data, sehingga tidak memerlukan database server yang kompleks.

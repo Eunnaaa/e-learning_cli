@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "nim": "12240026",
+      "password": "Mhs-1945",
+      "name": "Gary Hardyansyah",
+      "role": "student"
+    },
+    {
+      "nim": "12240131",
+      "password": "Mhs-1945",
+      "name": "Firja Algifari",
+      "role": "student"
+    },
+    {
+      "nim": "12240088",
+      "password": "Mhs-1945",
+      "name": "Harnojo Puro Priyaji",
+      "role": "student"
+    },
+    {
+      "nim": "12240042",
+      "password": "Mhs-1945",
+      "name": "Muhammad Aditya Pratama",
+      "role": "student"
+    },
+    {
+      "nim": "12240139",
+      "password": "Mhs-1945",
+      "name": "Zahra Aulia",
+      "role": "student"
+    },
+    {
+      "nim": "MEI-250",
+      "password": "DPG-250",
+      "name": "Muji Ernawati",
+      "role": "admin"
+    }
+  ],
+  "schedule": [
+    {
+      "nim": "12240026",
+      "subject": "Logika Algoritma",
+      "time": "Senin, 08:20-11:40"
+    },
+    {
+      "nim": "12240026",
+      "subject": "Entreprenurship",
+      "time": "Senin, 14:20-16:40"
+    },
+    {
+      "nim": "12240026",
+      "subject": "Pemrograman Dasar",
+      "time": "Kamis, 07:30-10:50"
+    },
+    {
+      "nim": "12240026",
+      "subject": "Bahasa Inggris",
+      "time": "Kamis, 13:20-15:00"
+    },
+    { "nim": "12240026", "subject": "PTIK", "time": "Jum'at, 13:30-14:00" },
+    {
+      "nim": "12240026",
+      "subject": "Pendidikan Pancasila",
+      "time": "Jum'at, 15:50-17:30"
+    },
+    {
+      "nim": "12240088",
+      "subject": "Logika Algoritma",
+      "time": "Senin, 08:20-11:40"
+    },
+    {
+      "nim": "12240088",
+      "subject": "Entreprenurship",
+      "time": "Senin, 14:20-16:40"
+    },
+    {
+      "nim": "12240088",
+      "subject": "Pemrograman Dasar",
+      "time": "Kamis, 07:30-10:50"
+    },
+    {
+      "nim": "12240088",
+      "subject": "Bahasa Inggris",
+      "time": "Kamis, 13:20-15:00"
+    },
+    { "nim": "12240088", "subject": "PTIK", "time": "Jum'at, 13:30-14:00" },
+    {
+      "nim": "12240088",
+      "subject": "Pendidikan Pancasila",
+      "time": "Jum'at, 15:50-17:30"
+    },
+    {
+      "nim": "12240042",
+      "subject": "Logika Algoritma",
+      "time": "Senin, 08:20-11:40"
+    },
+    {
+      "nim": "12240042",
+      "subject": "Entreprenurship",
+      "time": "Senin, 14:20-16:40"
+    },
+    {
+      "nim": "12240042",
+      "subject": "Pemrograman Dasar",
+      "time": "Kamis, 07:30-10:50"
+    },
+    {
+      "nim": "12240042",
+      "subject": "Bahasa Inggris",
+      "time": "Kamis, 13:20-15:00"
+    },
+    { "nim": "12240042", "subject": "PTIK", "time": "Jum'at, 13:30-14:00" },
+    {
+      "nim": "12240042",
+      "subject": "Pendidikan Pancasila",
+      "time": "Jum'at, 15:50-17:30"
+    },
+    {
+      "nim": "12240131",
+      "subject": "Logika Algoritma",
+      "time": "Senin, 08:20-11:40"
+    },
+    {
+      "nim": "12240131",
+      "subject": "Entreprenurship",
+      "time": "Senin, 14:20-16:40"
+    },
+    {
+      "nim": "12240131",
+      "subject": "Pemrograman Dasar",
+      "time": "Kamis, 07:30-10:50"
+    },
+    {
+      "nim": "12240131",
+      "subject": "Bahasa Inggris",
+      "time": "Kamis, 13:20-15:00"
+    },
+    { "nim": "12240131", "subject": "PTIK", "time": "Jum'at, 13:30-14:00" },
+    {
+      "nim": "12240131",
+      "subject": "Pendidikan Pancasila",
+      "time": "Jum'at, 15:50-17:30"
+    },
+    {
+      "nim": "12240139",
+      "subject": "Logika Algoritma",
+      "time": "Senin, 08:20-11:40"
+    },
+    {
+      "nim": "12240139",
+      "subject": "Entreprenurship",
+      "time": "Senin, 14:20-16:40"
+    },
+    {
+      "nim": "12240139",
+      "subject": "Pemrograman Dasar",
+      "time": "Kamis, 07:30-10:50"
+    },
+    {
+      "nim": "12240139",
+      "subject": "Bahasa Inggris",
+      "time": "Kamis, 13:20-15:00"
+    },
+    { "nim": "12240139", "subject": "PTIK", "time": "Jum'at, 13:30-14:00" },
+    {
+      "nim": "12240139",
+      "subject": "Pendidikan Pancasila",
+      "time": "Jum'at, 15:50-17:30"
+    }
+  ],
+  "attendance": [
+    { "nim": "12240026", "date": "2024-11-23" },
+    { "nim": "12240088", "date": "2024-11-23" },
+    { "nim": "12240042", "date": "2024-11-23" },
+    { "nim": "12240131", "date": "2024-11-23" },
+    { "nim": "12240139", "date": "2024-11-23" },
+    { "nim": "12240026", "date": "2024-12-29" },
+    { "nim": "12240139", "date": "2024-12-29" },
+    { "nim": "12240026", "date": "2024-12-31" }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Tugas Pemrograman Dasar",
+      "description": "Buatlah sistem kasir dengan python",
+      "deadline": "2024-11-28"
+    },
+    {
+      "id": 2,
+      "title": "kuntiterbang",
+      "description": "ganteng",
+      "deadline": "1 - 1 -2025"
+    }
+  ],
+  "submissions": [
+    {
+      "task_id": 1,
+      "nim": "12240026",
+      "file": "tugas1.pdf",
+      "submission_date": "2024-11-28"
+    },
+    {
+      "task_id": 1,
+      "nim": "12240026",
+      "file": "tugas1.pdf",
+      "submission_date": "2024-12-31"
+    }
+  ],
+  "replacement_classes": [
+    {
+      "course": "Pemrograman Dasar",
+      "date": "2024-11-28",
+      "time": "10:00 - 12:00",
+      "room": "Ruang 201"
+    },
+    {
+      "course": "Logika Algoritma",
+      "date": "1-1-2025",
+      "time": "18:00 - 21:00",
+      "room": "2A"
+    },
+    {
+      "course": "Logika ",
+      "date": "Jumat tujuh desember",
+      "time": "Pukul 1 sampai pukul 3",
+      "room": "4a"
+    }
+  ]
+}
