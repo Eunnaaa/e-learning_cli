@@ -174,23 +174,14 @@
     { "nim": "12240088", "date": "2024-11-23" },
     { "nim": "12240042", "date": "2024-11-23" },
     { "nim": "12240131", "date": "2024-11-23" },
-    { "nim": "12240139", "date": "2024-11-23" },
-    { "nim": "12240026", "date": "2024-12-29" },
-    { "nim": "12240139", "date": "2024-12-29" },
-    { "nim": "12240026", "date": "2024-12-31" }
+    { "nim": "12240139", "date": "2024-11-23" }
   ],
   "tasks": [
     {
       "id": 1,
       "title": "Tugas Pemrograman Dasar",
-      "description": "Buatlah sistem kasir dengan python",
-      "deadline": "2024-11-28"
-    },
-    {
-      "id": 2,
-      "title": "kuntiterbang",
-      "description": "ganteng",
-      "deadline": "1 - 1 -2025"
+      "description": "Buatlah Sistem Kalkulator",
+      "deadline": "2025-01-21"
     }
   ],
   "submissions": [
@@ -199,12 +190,6 @@
       "nim": "12240026",
       "file": "tugas1.pdf",
       "submission_date": "2024-11-28"
-    },
-    {
-      "task_id": 1,
-      "nim": "12240026",
-      "file": "tugas1.pdf",
-      "submission_date": "2024-12-31"
     }
   ],
   "replacement_classes": [
@@ -213,18 +198,6 @@
       "date": "2024-11-28",
       "time": "10:00 - 12:00",
       "room": "Ruang 201"
-    },
-    {
-      "course": "Logika Algoritma",
-      "date": "1-1-2025",
-      "time": "18:00 - 21:00",
-      "room": "2A"
-    },
-    {
-      "course": "Logika ",
-      "date": "Jumat tujuh desember",
-      "time": "Pukul 1 sampai pukul 3",
-      "room": "4a"
     }
   ]
 }

@@ -76,3 +76,8 @@ Copy code
 Efisiensi: Mempermudah pengelolaan tugas, absensi, dan kelas pengganti.
 Integrasi: Satu sistem mencakup banyak fitur yang relevan untuk dosen dan mahasiswa.
 Kemudahan Akses: Menggunakan file JSON sebagai basis data, sehingga tidak memerlukan database server yang kompleks.
+
+
+Login:
+  nim: 12240026
+  password: Mhs-1945

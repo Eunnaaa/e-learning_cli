@@ -208,7 +208,7 @@ def update_task():
 def main():
     print("=== Simple E-Learning ===")
     while True: 
-        nim = input("Masukkan NIM: ")
+        nim = input("Masukkan NIM/CD(Code Dosen): ")
         password = getpass.getpass("Masukkan Password: ")
         
         user = login(nim, password)
