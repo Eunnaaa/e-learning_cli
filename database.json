@@ -31,9 +31,21 @@
       "role": "student"
     },
     {
+      "nim": "12240050",
+      "password": "Mhs-1945",
+      "name": "Dwiviano Rossi",
+      "role": "student"
+    },
+    {
       "nim": "MEI-250",
       "password": "DPG-250",
       "name": "Muji Ernawati",
+      "role": "admin"
+    },
+    {
+      "nim": "FTI-155",
+      "password": "LGA-155",
+      "name": "Fitra LGA",
       "role": "admin"
     }
   ],
@@ -174,14 +186,21 @@
     { "nim": "12240088", "date": "2024-11-23" },
     { "nim": "12240042", "date": "2024-11-23" },
     { "nim": "12240131", "date": "2024-11-23" },
-    { "nim": "12240139", "date": "2024-11-23" }
+    { "nim": "12240139", "date": "2024-11-23" },
+    { "nim": "12240026", "date": "2025-01-09" }
   ],
   "tasks": [
     {
       "id": 1,
-      "title": "Tugas Pemrograman Dasar",
-      "description": "Buatlah Sistem Kalkulator",
-      "deadline": "2025-01-21"
+      "title": "Buatlah sistem kasir",
+      "description": "berformat pdf",
+      "deadline": "2025-1-22"
+    },
+    {
+      "id": 2,
+      "title": "Membuat Flowchart Sistem Calculator",
+      "description": "Format harus berbentuk pdf",
+      "deadline": "2025-1-15"
     }
   ],
   "submissions": [
@@ -190,6 +209,12 @@
       "nim": "12240026",
       "file": "tugas1.pdf",
       "submission_date": "2024-11-28"
+    },
+    {
+      "task_id": 2,
+      "nim": "12240026",
+      "file": "tugas2.pdf",
+      "submission_date": "2025-01-09"
     }
   ],
   "replacement_classes": [
@@ -198,6 +223,12 @@
       "date": "2024-11-28",
       "time": "10:00 - 12:00",
       "room": "Ruang 201"
+    },
+    {
+      "course": "Dasar Pemrograman",
+      "date": "2025-1-12",
+      "time": "08:00 - 11:00",
+      "room": "Ruang 202"
     }
   ]
 }

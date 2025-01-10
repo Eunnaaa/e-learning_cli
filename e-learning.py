@@ -148,6 +148,24 @@ def view_attendance():
         user = next(user for user in data["users"] if user["nim"] == entry["nim"])
         print(f"- {user['name']} ({entry['nim']}), Tanggal: {entry['date']}")
 
+
+# New Feature
+# Admin = Dosen: Fungsi melihat absensi berdasarkan NIM
+def view_attendance_by_nim():
+    data = load_database()
+    nim_input = input("Masukkan NIM mahasiswa yang ingin dilihat absensinya: ")
+
+    attendance_records = [entry for entry in data["attendance"] if entry["nim"] == nim_input]
+    
+    if not attendance_records:
+        print("\nTidak ada data absensi untuk NIM tersebut.")
+        return
+    
+    print(f"\nDaftar Kehadiran untuk NIM {nim_input}:")
+    for entry in attendance_records:
+        print(f"- Tanggal: {entry['date']}")
+
+
 # Admin = Dosen: Tambah jadwal kelas pengganti
 def add_replacement_class():
     data = load_database()
@@ -245,22 +263,25 @@ def main():
                     print("\nMenu Dosen:")
                     print("1. Lihat Absensi ")
                     print("2. Kelas Pengganti")
-                    print("3. Tambah Tugas")
-                    print("4. Update Tugas")
-                    print("5. Lihat Tugas")
-                    print("6. Logout")
+                    print("3. Lihat Absen By NIM")
+                    print("4. Tambah Tugas")
+                    print("5. Update Tugas")
+                    print("6. Lihat Tugas")
+                    print("7. Logout")
                     choice = input("Pilih menu: ")
                     if choice == "1":
                         view_attendance()
                     elif choice == "2":
                         add_replacement_class()
                     elif choice == "3":
-                        add_task()
+                        view_attendance_by_nim()
                     elif choice == "4":
-                        update_task()
+                        add_task()
                     elif choice == "5":
-                        view_submissions()
+                        update_task()
                     elif choice == "6":
+                        view_submissions()
+                    elif choice == "7":
                         loading()
                         print("Anda telah logout.")
                         break 
